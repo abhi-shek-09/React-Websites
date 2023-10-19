@@ -1,0 +1,11 @@
+/* Header.css */
+.header__image {
+    width: 100%;
+}
+  
+.header__image img {
+    width: 100%;
+    display: block; 
+    margin-top: -0.5rem;
+}
+  

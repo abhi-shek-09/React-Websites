@@ -96,7 +96,12 @@
 
   }
 
-@media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1200px) {
+    .navbar__heading h1{
+      letter-spacing: 0.7rem;
+      font-size: 3rem;
+      margin: 0;
+    }
     .navbar__links-container {
       display: none;
     }
@@ -105,10 +110,25 @@
       display: block;
     }
   }
+
+/* @media screen and (max-width: 1050px) {
+    .navbar__links-container {
+      display: none;
+    }
+  
+    .navbar__menu-icon {
+      display: block;
+    }
+  } */
   
   @media screen and (max-width: 700px) {
     .navbar {
       padding: 2rem 4rem;
+    }
+    .navbar__heading h1{
+      letter-spacing: 0.1rem;
+      font-size: 2rem;
+      margin: 0;
     }
   }
   
@@ -119,5 +139,9 @@
   
     .navbar__links-container2 {
       display: none;
+    }
+    .navbar__heading h1{
+      font-size: 1.5rem;
+      margin: 0;
     }
   }
